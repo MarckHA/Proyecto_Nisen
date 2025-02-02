@@ -55,7 +55,14 @@ int main() {
     Scene scene;
     scene.addModel(ModelLoader("models/space/espacio.obj", glm::vec3(0.0f), glm::vec3(2.0f, 1.0f,2.0f)));
     scene.addModel(ModelLoader("models/garage/garage.obj", glm::vec3(0.0f), glm::vec3(0.05f)));
-
+    scene.addModel(ModelLoader("models/security_room_/security.obj", glm::vec3(-13.0f, 0.07f, -3.0f), glm::vec3(0.4f), glm::vec3(-90.0f, 90.0f, 90.0f)));
+    scene.addModel(ModelLoader("models/traffic/traffic.obj", glm::vec3(-13.0f, 0.0f, 3.0f), glm::vec3(0.2f), glm::vec3(0.0f, -90.0f, 0.0f)));
+    scene.addModel(ModelLoader("models/ram_1500/RAM.obj", glm::vec3(4.5f, -0.15f, 0.0f), glm::vec3(1.0f), glm::vec3(0.0f, -90.0f, 0.0f)));
+    scene.addModel(ModelLoader("models/chevroletCamaro/Camaro.obj", glm::vec3(0.0f, 0.0f, -2.5f), glm::vec3(0.3f), glm::vec3(0.0f, 0.0f, 0.0f)));
+    scene.addModel(ModelLoader("models/lamborghini_aventador/Lambo.obj", glm::vec3(0.0f, -0.15f, 3.0f), glm::vec3(0.15f), glm::vec3(-180.0f, 0.0f, 180.0f)));
+    scene.addModel(ModelLoader("models/porsche_gt3/porsche.obj", glm::vec3(-4.25f, 0.0f, -3.0f), glm::vec3(0.75f), glm::vec3(0.0f, 0.0f, 0.0f))); 
+    scene.addModel(ModelLoader("models/escritorio_deco/escritorio.obj", glm::vec3(-4.0f, 0.0f, 4.0f), glm::vec3(0.5f), glm::vec3(-180.0f, -90.0f, -180.0f)));
+    scene.addModel(ModelLoader("models/barril_deco/barril_deco.obj", glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3(0.5f), glm::vec3(-180.0f, -90.0f, -180.0f)));
     Renderer renderer;
 
     // Render loop
