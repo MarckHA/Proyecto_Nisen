@@ -67,11 +67,11 @@ Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archiv
 ## **Créditos**
 
 1. Equipo de Desarrollo:
-   Mark Hernández (mark.hernandez@epn.edu.ec)
-   Leandro Bravo (leandro.bravo@epn.edu.ec)
+   Mark Hernández (mark.hernandez@epn.edu.ec)   
+   Leandro Bravo (leandro.bravo@epn.edu.ec)   
    Juan Flores (juan.flores05@epn.edu.ec)
 
-2. Recursos:
+3. Recursos:
    Modelos 3D y texturas obtenidos de Sketchfab y Blender.
 
    
