@@ -9,7 +9,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 3
-map_Kd C:/Users/leand/Downloads/headlights/base_caucho.png
+map_Kd base_caucho.png
 
 newmtl Opaque135140140.001
 Ns 200.000381
@@ -49,7 +49,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 0.250000
 illum 6
-map_Kd C:/Users/leand/Downloads/headlights/blanco_luz.png
+map_Kd blanco_luz.png
 
 newmtl Opaque191191191
 Ns 771.597107
@@ -79,4 +79,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 3
-map_Kd C:/Users/leand/Downloads/headlights/borde_foco.png
+map_Kd borde_foco.png
