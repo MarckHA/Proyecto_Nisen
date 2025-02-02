@@ -8,9 +8,9 @@ Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 illum 2
-map_Kd C:/Door_baseColor.png
-map_d C:/Door_baseColor.png
-map_Bump -bm 1.000000 C:/Door_normal.png
+map_Kd Door_baseColor.png
+map_d Door_baseColor.png
+map_Bump -bm 1.000000 Door_normal.png
 
 newmtl Glass
 Ns 907.126221
@@ -20,7 +20,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 0.250000
 illum 9
-map_Kd textures/vidrio.png
+map_Kd vidrio.png
 
 newmtl material
 Ns 250.000000
@@ -29,9 +29,9 @@ Ks 0.500000 0.500000 0.500000
 Ni 1.500000
 d 1.000000
 illum 2
-map_Kd C:/material_baseColor.png
-map_Ke C:/material_emissive.png
-map_Bump -bm 1.000000 C:/material_normal.png
+map_Kd material_baseColor.png
+map_Ke material_emissive.png
+map_Bump -bm 1.000000 material_normal.png
 
 newmtl material_2
 Ns 250.000000
@@ -41,5 +41,5 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 2
-map_Kd C:/material_2_baseColor.png
-map_Bump -bm 1.000000 C:/material_2_normal.png
+map_Kd material_2_baseColor.png
+map_Bump -bm 1.000000 material_2_normal.png
