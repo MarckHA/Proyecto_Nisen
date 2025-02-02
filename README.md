@@ -26,16 +26,16 @@ NiseN es una concesionaria virtual ubicada en el espacio, donde los usuarios pue
 
 ## **Estructura del Repositorio**
 
-Proyecto_Nisen/
-├── Proyecto_Nisen_Stuff/ # Recursos del proyecto (texturas, modelos, etc.)
-│ ├── models/ # Modelos 3D de autos y el entorno
-│ ├── textures/ # Texturas para los modelos y el entorno
-│ └── shaders/ # Shaders personalizados
-├── x64/ # Archivos de compilación (Debug/Release)
-├── Proyecto_Nisen.sin # Archivo de solución del proyecto
-├── assimp-vct43-mtd.dll # Biblioteca Assimp para carga de modelos
-├── README.md # Este archivo
-└── LICENSE # Licencia del proyecto
+Proyecto_Nisen/  
+├── Proyecto_Nisen_Stuff/ # Recursos del proyecto (texturas, modelos, etc.)   
+│ ├── models/ # Modelos 3D de autos y el entorno  
+│ ├── textures/ # Texturas para los modelos y el entorno  
+│ └── shaders/ # Shaders personalizados  
+├── x64/ # Archivos de compilación (Debug/Release)  
+├── Proyecto_Nisen.sin # Archivo de solución del proyecto  
+├── assimp-vct43-mtd.dll # Biblioteca Assimp para carga de modelos  
+├── README.md # Este archivo  
+└── LICENSE # Licencia del proyecto  
 
 ---
 
@@ -66,12 +66,12 @@ Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archiv
 
 ## **Créditos**
 
-1. Equipo de Desarrollo:
+1. Equipo de Desarrollo:  
    Mark Hernández (mark.hernandez@epn.edu.ec)   
    Leandro Bravo (leandro.bravo@epn.edu.ec)   
    Juan Flores (juan.flores05@epn.edu.ec)
 
-3. Recursos:
+3. Recursos:  
    Modelos 3D y texturas obtenidos de Sketchfab y Blender.
 
    
