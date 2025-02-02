@@ -1,0 +1,174 @@
+# Blender 4.0.2 MTL File: 'None'
+# www.blender.org
+
+newmtl CMM_Badges_HighSG1
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.249144 0.249144 0.249144
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 2
+map_Kd CMM_Badges_HighSG1_baseColor.png
+map_Bump -bm 1.000000 CMM_Badges_HighSG1_normal.png
+map_Ks CMM_Badges_HighSG1_metallicRoughness.png
+
+newmtl CMM_BrakeDisc_HighSG1
+Ns 564.930054
+Ka 0.425144 0.425144 0.425144
+Ks 0.099810 0.099810 0.099810
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd CMM_BrakeDisc_HighSG1_baseColor.png
+map_Bump -bm 1.000000 CMM_BrakeDisc_HighSG1_normal.png
+
+newmtl CMM_Caliper_HighSG1
+Ns 404.252319
+Ka 0.486097 0.486097 0.486097
+Ks 0.096762 0.096762 0.096762
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd CMM_Caliper_HighSG1_baseColor.png
+map_Bump -bm 1.000000 CMM_Caliper_HighSG1_normal.png
+
+newmtl CMM_Chassis_HighSG1
+Ns 144.253845
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.075429 0.075429 0.075429
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl CMM_GlassColor_Orange_HighSG2
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.760000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.250000
+illum 9
+map_Kd vidrio_rojo.png
+
+newmtl CMM_GlassColor_Orange_HighSG3
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.079740 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.675050
+illum 9
+
+newmtl CMM_GrilleA_HighSG1
+Ns 373.843506
+Ka 0.388573 0.388573 0.388573
+Kd 0.000000 0.000000 0.000000
+Ks 0.075429 0.075429 0.075429
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Bump -bm 1.000000 CMM_GrilleA_HighSG1_normal.png
+
+newmtl CMM_Internal_Engine_HighSG1
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.087619 0.087619 0.087619
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd CMM_Internal_Engine_HighSG1_baseColor.png
+map_Bump -bm 1.000000 CMM_Internal_Engine_HighSG1_normal.png
+map_Ks CMM_Internal_Engine_HighSG1_metallicRoughness.png
+
+newmtl CMM_LightCluster_HighSG1
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.118096 0.118096 0.118096
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd CMM_LightCluster_HighSG1_baseColor.png
+map_Bump -bm 1.000000 CMM_LightCluster_HighSG1_normal.png
+map_Ks CMM_LightCluster_HighSG1_metallicRoughness.png
+
+newmtl CMM_LightRefracted_HighSG1
+Ns 289.750000
+Ka 0.412954 0.412954 0.412954
+Ks 0.118096 0.118096 0.118096
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd CMM_LightRefracted_HighSG1_baseColor.png
+map_Bump -bm 1.000000 CMM_LightRefracted_HighSG1_normal.png
+
+newmtl CMM_Opaque_PlasticSmoothBlack_HighSG1
+Ns 330.459229
+Ka 0.601907 0.601907 0.601907
+Kd 0.014993 0.014993 0.014993
+Ks 0.066286 0.066286 0.066286
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd negros.png
+
+newmtl CMM_Paint_Metal_HighSG1
+Ns 799.706055
+Ka 0.217905 0.217905 0.217905
+Ks 0.084572 0.084572 0.084572
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd amarillo.png
+
+newmtl CMM_Rim_HighSG1
+Ns 583.403870
+Ka 0.632383 0.632383 0.632383
+Ks 0.048000 0.048000 0.048000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd CMM_Rim_HighSG1_baseColor.png
+
+newmtl CMM_Tire_HighSG1
+Ns 511.291870
+Ka 0.303239 0.303239 0.303239
+Ks 0.105905 0.105905 0.105905
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd negros.png
+map_Bump -bm 1.000000 CMM_Tire_HighSG1_normal.png
+
+newmtl CMpolySurface1SG1
+Ns 1000.000000
+Ka 0.437335 0.437335 0.437335
+Ks 0.191239 0.191239 0.191239
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd vidrios.png
+
+newmtl CMpolySurface6SG1
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.250000
+illum 9
+map_Kd vidrios.png
