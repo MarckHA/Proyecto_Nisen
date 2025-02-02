@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de origen\models">
+      <UniqueIdentifier>{31c6609f-6d28-46cb-b2b9-b50a0fad571a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\shaders">
+      <UniqueIdentifier>{119f1fc4-7bde-40a4-a2dd-63e132ad6267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\models\backpack">
+      <UniqueIdentifier>{9f9d4153-150d-423d-a721-1663658f66a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\models\porsche_gt3">
+      <UniqueIdentifier>{f248ef4e-faa7-4b95-b225-9183c1d5e96f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\models\space">
+      <UniqueIdentifier>{990f2408-eb92-4f69-a6b0-39858bd727c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\models\garage">
+      <UniqueIdentifier>{0c2a1a37-9765-4275-b134-3057d546d9d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Proyecto_Nisen_Stuff\Library\glad.c">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Proyect_main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="models\backpack\backpack.mtl">
+      <Filter>Archivos de origen\models\backpack</Filter>
+    </None>
+    <None Include="shaders\shader_exercise15_lightcube.fs">
+      <Filter>Archivos de origen\shaders</Filter>
+    </None>
+    <None Include="shaders\shader_exercise15_lightcube.vs">
+      <Filter>Archivos de origen\shaders</Filter>
+    </None>
+    <None Include="models\porsche_gt3\porsche.mtl">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </None>
+    <None Include="shaders\shadermloading.fs">
+      <Filter>Archivos de origen\shaders</Filter>
+    </None>
+    <None Include="shaders\shadermloading.vs">
+      <Filter>Archivos de origen\shaders</Filter>
+    </None>
+    <None Include="shaders\shader_exercise15t5_casters.fs">
+      <Filter>Archivos de origen\shaders</Filter>
+    </None>
+    <None Include="shaders\shader_exercise15t5_casters.vs">
+      <Filter>Archivos de origen\shaders</Filter>
+    </None>
+    <None Include="models\space\espacio.mtl">
+      <Filter>Archivos de origen\models\space</Filter>
+    </None>
+    <None Include="models\garage\garage_.mtl">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="models\backpack\ao.jpg">
+      <Filter>Archivos de origen\models\backpack</Filter>
+    </Image>
+    <Image Include="models\backpack\diffuse.jpg">
+      <Filter>Archivos de origen\models\backpack</Filter>
+    </Image>
+    <Image Include="models\backpack\normal.png">
+      <Filter>Archivos de origen\models\backpack</Filter>
+    </Image>
+    <Image Include="models\backpack\roughness.jpg">
+      <Filter>Archivos de origen\models\backpack</Filter>
+    </Image>
+    <Image Include="models\backpack\specular.jpg">
+      <Filter>Archivos de origen\models\backpack</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Carroceria.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022_CallipersCalliperA_Zone_Material_baseColor.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022_Wheel1A_3D_3DWheel2C_Material_baseColor.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022_Wheel1A_3D_3DWheel2C_Material_normal.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022BadgeB_Material_baseColor.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022BadgeB_Material_normal.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Carbon1_Material_baseColor.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Carbon1_Material_normal.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Coloured_Material_baseColor.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Grille1A_Material_baseColor.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Grille1A_Material_normal.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Grille2A_Material_baseColor.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Grille2A_Material_normal.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Grille3A_Material_baseColor.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Grille3A_Material_normal.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Grille4A_Material_baseColor.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Grille4A_Material_normal.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Grille5A_Material_baseColor.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Grille5A_Material_normal.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Grille8A_Material_baseColor.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Grille8A_Material_normal.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022InteriorB_Material_baseColor.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022InteriorB_Material_normal.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022InteriorTillingB_Material_baseColor.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022InteriorTillingB_Material_normal.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022LightA_Material_baseColor.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022LightA_Material_metallicRoughness.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022ManufacturerPlateA_Material_baseColor.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\porsche_gt3\Vidrios.png">
+      <Filter>Archivos de origen\models\porsche_gt3</Filter>
+    </Image>
+    <Image Include="models\space\Material.002_baseColor.png">
+      <Filter>Archivos de origen\models\space</Filter>
+    </Image>
+    <Image Include="models\garage\Battered_metal_01_diffuse_xtm.png">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Battered_metal_01_displace_xtm.png">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Battered_metal_01_metal_xtm.png">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Battered_metal_01_normal_xtm.png">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Battered_metal_01_occlusion_xtm.png">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Battered_metal_01_roughness_xtm.png">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Block02_baseColor.jpeg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Block02_metallicRoughness.jpeg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Block02_normal.jpeg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\BlockReplace_baseColor.jpeg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\BlockReplace_normal.jpeg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\concrete_7_diffuse_xtm.jpg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\concrete_7_normal_xtm.jpg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\concrete_7_occlusion_xtm.jpg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\concrete_7_specular_xtm.jpg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Concrete15_diffuse_xtm.jpg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Concrete15_displace_xtm.jpg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Concrete15_normal_xtm.jpg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Concrete15_roughness_xtm.jpg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\GarageSign_baseColor.jpeg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Ground01_baseColor.jpeg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Ground01_metallicRoughness.jpeg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Ground01_normal.jpeg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Ground02_baseColor.jpeg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Ground02_metallicRoughness.jpeg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Ground02_normal.jpeg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Metal03_diffuse_xtm.jpg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Metal03_displace_xtm.jpg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Metal03_metal_xtm.jpg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Metal03_normal_xtm.jpg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Metal03_roughness_xtm.jpg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Metal05_diffuse_xtm.jpg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Metal05_displace_xtm.jpg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Metal05_metal_xtm.jpg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Metal05_normal_xtm.jpg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Metal05_roughness_xtm.jpg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Painted01_baseColor.jpeg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Painted01_metallicRoughness.jpeg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Painted01_normal.jpeg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\PaintedMetal02_diffuse_xtm.jpg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\PaintedMetal02_displace_xtm.jpg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\PaintedMetal02_metal_xtm.jpg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\PaintedMetal02_normal_xtm.jpg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\PaintedMetal02_roughness_xtm.jpg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Scratches07_diffuse_xtm.jpg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Scratches07_normal_xtm.jpg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Wood01_baseColor.jpeg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Wood01_metallicRoughness.jpeg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Wood01_normal.jpeg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Wood03_baseColor.jpeg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Wood03_metallicRoughness.jpeg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Wood03_normal.jpeg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Wood04_baseColor.jpeg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Wood04_metallicRoughness.jpeg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+    <Image Include="models\garage\Wood04_normal.jpeg">
+      <Filter>Archivos de origen\models\garage</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="models\backpack\source_attribution.txt">
+      <Filter>Archivos de origen\models\backpack</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

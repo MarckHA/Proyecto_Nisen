@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{eb2ab743-b32b-47e3-bd4d-5dd86451baad}</ProjectGuid>
+    <RootNamespace>ProyectoNisen</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(SolutionDir)Proyecto_Nisen_Stuff\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Proyecto_Nisen_Stuff\Library;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;assimp-vc143-mtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Proyecto_Nisen_Stuff\Library\glad.c" />
+    <ClCompile Include="Proyect_main.cpp" />
+    <ClCompile Include="stb_image.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="models\backpack\backpack.mtl" />
+    <None Include="models\garage\garage_.mtl" />
+    <None Include="models\porsche_gt3\porsche.mtl" />
+    <None Include="models\space\espacio.mtl" />
+    <None Include="shaders\shadermloading.fs" />
+    <None Include="shaders\shadermloading.vs" />
+    <None Include="shaders\shader_exercise15t5_casters.fs" />
+    <None Include="shaders\shader_exercise15t5_casters.vs" />
+    <None Include="shaders\shader_exercise15_lightcube.fs" />
+    <None Include="shaders\shader_exercise15_lightcube.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="models\backpack\ao.jpg" />
+    <Image Include="models\backpack\diffuse.jpg" />
+    <Image Include="models\backpack\normal.png" />
+    <Image Include="models\backpack\roughness.jpg" />
+    <Image Include="models\backpack\specular.jpg" />
+    <Image Include="models\garage\Battered_metal_01_diffuse_xtm.png" />
+    <Image Include="models\garage\Battered_metal_01_displace_xtm.png" />
+    <Image Include="models\garage\Battered_metal_01_metal_xtm.png" />
+    <Image Include="models\garage\Battered_metal_01_normal_xtm.png" />
+    <Image Include="models\garage\Battered_metal_01_occlusion_xtm.png" />
+    <Image Include="models\garage\Battered_metal_01_roughness_xtm.png" />
+    <Image Include="models\garage\Block02_baseColor.jpeg" />
+    <Image Include="models\garage\Block02_metallicRoughness.jpeg" />
+    <Image Include="models\garage\Block02_normal.jpeg" />
+    <Image Include="models\garage\BlockReplace_baseColor.jpeg" />
+    <Image Include="models\garage\BlockReplace_normal.jpeg" />
+    <Image Include="models\garage\Concrete15_diffuse_xtm.jpg" />
+    <Image Include="models\garage\Concrete15_displace_xtm.jpg" />
+    <Image Include="models\garage\Concrete15_normal_xtm.jpg" />
+    <Image Include="models\garage\Concrete15_roughness_xtm.jpg" />
+    <Image Include="models\garage\concrete_7_diffuse_xtm.jpg" />
+    <Image Include="models\garage\concrete_7_normal_xtm.jpg" />
+    <Image Include="models\garage\concrete_7_occlusion_xtm.jpg" />
+    <Image Include="models\garage\concrete_7_specular_xtm.jpg" />
+    <Image Include="models\garage\GarageSign_baseColor.jpeg" />
+    <Image Include="models\garage\Ground01_baseColor.jpeg" />
+    <Image Include="models\garage\Ground01_metallicRoughness.jpeg" />
+    <Image Include="models\garage\Ground01_normal.jpeg" />
+    <Image Include="models\garage\Ground02_baseColor.jpeg" />
+    <Image Include="models\garage\Ground02_metallicRoughness.jpeg" />
+    <Image Include="models\garage\Ground02_normal.jpeg" />
+    <Image Include="models\garage\Metal03_diffuse_xtm.jpg" />
+    <Image Include="models\garage\Metal03_displace_xtm.jpg" />
+    <Image Include="models\garage\Metal03_metal_xtm.jpg" />
+    <Image Include="models\garage\Metal03_normal_xtm.jpg" />
+    <Image Include="models\garage\Metal03_roughness_xtm.jpg" />
+    <Image Include="models\garage\Metal05_diffuse_xtm.jpg" />
+    <Image Include="models\garage\Metal05_displace_xtm.jpg" />
+    <Image Include="models\garage\Metal05_metal_xtm.jpg" />
+    <Image Include="models\garage\Metal05_normal_xtm.jpg" />
+    <Image Include="models\garage\Metal05_roughness_xtm.jpg" />
+    <Image Include="models\garage\Painted01_baseColor.jpeg" />
+    <Image Include="models\garage\Painted01_metallicRoughness.jpeg" />
+    <Image Include="models\garage\Painted01_normal.jpeg" />
+    <Image Include="models\garage\PaintedMetal02_diffuse_xtm.jpg" />
+    <Image Include="models\garage\PaintedMetal02_displace_xtm.jpg" />
+    <Image Include="models\garage\PaintedMetal02_metal_xtm.jpg" />
+    <Image Include="models\garage\PaintedMetal02_normal_xtm.jpg" />
+    <Image Include="models\garage\PaintedMetal02_roughness_xtm.jpg" />
+    <Image Include="models\garage\Scratches07_diffuse_xtm.jpg" />
+    <Image Include="models\garage\Scratches07_normal_xtm.jpg" />
+    <Image Include="models\garage\Wood01_baseColor.jpeg" />
+    <Image Include="models\garage\Wood01_metallicRoughness.jpeg" />
+    <Image Include="models\garage\Wood01_normal.jpeg" />
+    <Image Include="models\garage\Wood03_baseColor.jpeg" />
+    <Image Include="models\garage\Wood03_metallicRoughness.jpeg" />
+    <Image Include="models\garage\Wood03_normal.jpeg" />
+    <Image Include="models\garage\Wood04_baseColor.jpeg" />
+    <Image Include="models\garage\Wood04_metallicRoughness.jpeg" />
+    <Image Include="models\garage\Wood04_normal.jpeg" />
+    <Image Include="models\porsche_gt3\Carroceria.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022BadgeB_Material_baseColor.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022BadgeB_Material_normal.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Carbon1_Material_baseColor.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Carbon1_Material_normal.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Coloured_Material_baseColor.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Grille1A_Material_baseColor.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Grille1A_Material_normal.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Grille2A_Material_baseColor.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Grille2A_Material_normal.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Grille3A_Material_baseColor.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Grille3A_Material_normal.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Grille4A_Material_baseColor.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Grille4A_Material_normal.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Grille5A_Material_baseColor.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Grille5A_Material_normal.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Grille8A_Material_baseColor.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022Grille8A_Material_normal.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022InteriorB_Material_baseColor.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022InteriorB_Material_normal.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022InteriorTillingB_Material_baseColor.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022InteriorTillingB_Material_normal.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022LightA_Material_baseColor.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022LightA_Material_metallicRoughness.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022ManufacturerPlateA_Material_baseColor.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022_CallipersCalliperA_Zone_Material_baseColor.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022_Wheel1A_3D_3DWheel2C_Material_baseColor.png" />
+    <Image Include="models\porsche_gt3\Porsche_911GT3TouringRewardRecycled_2022_Wheel1A_3D_3DWheel2C_Material_normal.png" />
+    <Image Include="models\porsche_gt3\Vidrios.png" />
+    <Image Include="models\space\Material.002_baseColor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="models\backpack\source_attribution.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
