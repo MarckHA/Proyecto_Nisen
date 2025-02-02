@@ -1,0 +1,225 @@
+# Blender 4.0.2 MTL File: 'None'
+# www.blender.org
+
+newmtl Porsche_911GT3TouringRewardRecycled_2022BadgeB_Material
+Ns 917.199158
+Ka 0.510478 0.510478 0.510478
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd Porsche_911GT3TouringRewardRecycled_2022BadgeB_Material_baseColor.png
+map_Bump -bm 1.000000 Porsche_911GT3TouringRewardRecycled_2022BadgeB_Material_normal.png
+
+newmtl Porsche_911GT3TouringRewardRecycled_2022Base_Material
+Ns 210.723190
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.063238 0.063238 0.063238
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Porsche_911GT3TouringRewardRecycled_2022Carbon1_Material
+Ns 270.399994
+Ka 0.400000 0.400000 0.400000
+Kd 0.800000 0.800000 0.800000
+Ks 0.025000 0.025000 0.025000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd Porsche_911GT3TouringRewardRecycled_2022Carbon1_Material_baseColor.png
+map_Bump -bm 1.000000 Porsche_911GT3TouringRewardRecycled_2022Carbon1_Material_normal.png
+
+newmtl Porsche_911GT3TouringRewardRecycled_2022Coloured_Material
+Ns 373.843506
+Ka 0.467811 0.467811 0.467811
+Kd 0.800000 0.800000 0.800000
+Ks 0.093715 0.093715 0.093715
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd Porsche_911GT3TouringRewardRecycled_2022Coloured_Material_baseColor.png
+
+newmtl Porsche_911GT3TouringRewardRecycled_2022Grille1A_Material
+Ns 72.950241
+Ka 0.510478 0.510478 0.510478
+Kd 0.800000 0.800000 0.800000
+Ks 0.060191 0.060191 0.060191
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd Porsche_911GT3TouringRewardRecycled_2022Grille1A_Material_baseColor.png
+map_Bump -bm 1.000000 Porsche_911GT3TouringRewardRecycled_2022Grille1A_Material_normal.png
+
+newmtl Porsche_911GT3TouringRewardRecycled_2022Grille2A_Material
+Ns 153.662567
+Ka 0.431239 0.431239 0.431239
+Kd 0.800000 0.800000 0.800000
+Ks 0.044953 0.044953 0.044953
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd Porsche_911GT3TouringRewardRecycled_2022Grille2A_Material_baseColor.png
+map_Bump -bm 1.000000 Porsche_911GT3TouringRewardRecycled_2022Grille2A_Material_normal.png
+
+newmtl Porsche_911GT3TouringRewardRecycled_2022Grille3A_Material
+Ns 0.000000
+Ka 0.565335 0.565335 0.565335
+Kd 0.800000 0.800000 0.800000
+Ks 0.057143 0.057143 0.057143
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd Porsche_911GT3TouringRewardRecycled_2022Grille3A_Material_baseColor.png
+map_Bump -bm 1.000000 Porsche_911GT3TouringRewardRecycled_2022Grille3A_Material_normal.png
+
+newmtl Porsche_911GT3TouringRewardRecycled_2022Grille4A_Material
+Ns 86.714973
+Ka 0.589716 0.589716 0.589716
+Kd 0.800000 0.800000 0.800000
+Ks 0.072381 0.072381 0.072381
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd Porsche_911GT3TouringRewardRecycled_2022Grille4A_Material_baseColor.png
+map_Bump -bm 1.000000 Porsche_911GT3TouringRewardRecycled_2022Grille4A_Material_normal.png
+
+newmtl Porsche_911GT3TouringRewardRecycled_2022Grille5A_Material
+Ns 178.484665
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.078476 0.078476 0.078476
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Porsche_911GT3TouringRewardRecycled_2022Grille5A_Material_baseColor.png
+map_Bump -bm 1.000000 Porsche_911GT3TouringRewardRecycled_2022Grille5A_Material_normal.png
+
+newmtl Porsche_911GT3TouringRewardRecycled_2022Grille8A_Material
+Ns 34.136051
+Ka 0.193524 0.193524 0.193524
+Kd 0.800000 0.800000 0.800000
+Ks 0.029714 0.029714 0.029714
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd Porsche_911GT3TouringRewardRecycled_2022Grille8A_Material_baseColor.png
+map_Bump -bm 1.000000 Porsche_911GT3TouringRewardRecycled_2022Grille8A_Material_normal.png
+
+newmtl Porsche_911GT3TouringRewardRecycled_2022InteriorB_Material
+Ns 41.227352
+Ka 0.626288 0.626288 0.626288
+Ks 0.105905 0.105905 0.105905
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd Porsche_911GT3TouringRewardRecycled_2022InteriorB_Material_baseColor.png
+map_Bump -bm 1.000000 Porsche_911GT3TouringRewardRecycled_2022InteriorB_Material_normal.png
+
+newmtl Porsche_911GT3TouringRewardRecycled_2022InteriorTillingB_Materi
+Ns 21.959648
+Ka 0.345906 0.345906 0.345906
+Kd 0.800000 0.800000 0.800000
+Ks 0.041905 0.041905 0.041905
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd Porsche_911GT3TouringRewardRecycled_2022InteriorTillingB_Material_baseColor.png
+map_Bump -bm 1.000000 Porsche_911GT3TouringRewardRecycled_2022InteriorTillingB_Material_normal.png
+
+newmtl Porsche_911GT3TouringRewardRecycled_2022LicensePlateDefaultA_Ma
+Ns 1.788855
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl Porsche_911GT3TouringRewardRecycled_2022LightA_Material
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.133334 0.133334 0.133334
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Porsche_911GT3TouringRewardRecycled_2022LightA_Material_baseColor.png
+
+newmtl Porsche_911GT3TouringRewardRecycled_2022ManufacturerPlateA_Mate
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd Porsche_911GT3TouringRewardRecycled_2022ManufacturerPlateA_Material_baseColor.png
+
+newmtl Porsche_911GT3TouringRewardRecycled_2022Paint_Material
+Ns 896.177429
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Carroceria.png
+
+newmtl Porsche_911GT3TouringRewardRecycled_2022Window_Material
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Vidrios.png
+
+newmtl Porsche_911GT3TouringRewardRecycled_2022_CallipersCalliperA_Zon
+Ns 1.788855
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd Porsche_911GT3TouringRewardRecycled_2022_CallipersCalliperA_Zone_Material_baseColor.png
+
+newmtl Porsche_911GT3TouringRewardRecycled_2022_Wheel1A_3D_3DWheel2C_M
+Ns 337.504181
+Ka 0.833526 0.833526 0.833526
+Ks 0.112000 0.112000 0.112000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd Porsche_911GT3TouringRewardRecycled_2022_Wheel1A_3D_3DWheel2C_Material_baseColor.png
+map_Bump -bm 1.000000 Porsche_911GT3TouringRewardRecycled_2022_Wheel1A_3D_3DWheel2C_Material_normal.png
+
+newmtl RED_GLASS
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
