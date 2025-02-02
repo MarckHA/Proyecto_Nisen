@@ -53,6 +53,7 @@ Proyecto_Nisen/
 ## **Capturas de Pantalla**
 
 Garage Espacial
+
 ![image](https://github.com/user-attachments/assets/69cf0222-2f94-4001-a533-d271fbf2ecdf)
 
 ---
