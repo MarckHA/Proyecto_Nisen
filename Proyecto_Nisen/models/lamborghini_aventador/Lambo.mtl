@@ -19,7 +19,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 2
-map_Kd textures/negros.png
+map_Kd negros.png
 
 newmtl Brake_2
 Ns 430.962646
@@ -39,7 +39,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 3
-map_Kd C:/Brake_disk_baseColor.png
+map_Kd Brake_disk_baseColor.png
 
 newmtl Brake_wire
 Ns 639.478516
@@ -60,7 +60,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 2
-map_Bump -o 0 -4.1 0 -s 5.1 5.1 1 -bm 1.000000 C:/Carbon_normal.jpeg
+map_Bump -o 0 -4.1 0 -s 5.1 5.1 1 -bm 1.000000 Carbon_normal.jpeg
 
 newmtl Chrome
 Ns 219.194412
@@ -90,8 +90,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 2
-map_Kd C:/Emblem_baseColor.png
-map_Bump -bm 1.000000 C:/Emblem_normal.png
+map_Kd Emblem_baseColor.png
+map_Bump -bm 1.000000 Emblem_normal.png
 
 newmtl Exhaust
 Ns 470.033020
@@ -131,7 +131,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 0.250000
 illum 9
-map_Kd textures/luces_blancas.png
+map_Kd luces_blancas.png
 
 newmtl Gold
 Ns 496.383698
@@ -141,7 +141,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 3
-map_Kd textures/Logo_lambo.png
+map_Kd Logo_lambo.png
 
 newmtl Hubcap
 Ns 454.201477
@@ -151,7 +151,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 3
-map_Kd textures/Aros.png
+map_Kd Aros.png
 
 newmtl Mirror
 Ns 877.046997
@@ -171,7 +171,7 @@ Ke 1.000000 0.179024 0.000000
 Ni 1.500000
 d 1.000000
 illum 3
-map_Kd textures/luces_naranjas.png
+map_Kd luces_naranjas.png
 
 newmtl Red_Lights
 Ns 611.239441
@@ -181,7 +181,7 @@ Ke 0.592148 0.005546 0.005546
 Ni 1.500000
 d 1.000000
 illum 3
-map_Kd textures/luces_rojas.png
+map_Kd luces_rojas.png
 
 newmtl Tires
 Ns 255.120590
@@ -191,7 +191,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 2
-map_Kd textures/negros.001.png
+map_Kd negros.001.png
 
 newmtl Tires_2
 Ns 250.000000
@@ -201,7 +201,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 2
-map_Kd C:/Tires_2_baseColor.jpeg
+map_Kd Tires_2_baseColor.jpeg
 
 newmtl Undercarriage
 Ns 174.876190
@@ -231,4 +231,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 3
-map_Kd textures/Parabrisas.png
+map_Kd Parabrisas.png
