@@ -1,6 +1,6 @@
-# Proyecto NiseN: Garage Espacial 🚀🚗
+# Proyecto NiseN: Concesionaria Espacial 🚀🚗
 
-¡Bienvenido al repositorio oficial del **Proyecto NiseN**! Este proyecto es un simulador de garage en el espacio, desarrollado para la materia de Computación Gráfica en la EPN. 
+¡Bienvenido al repositorio oficial del **Proyecto NiseN**! Este proyecto es un simulador de una concesionaria en el espacio, desarrollado para la materia de Computación Gráfica en la EPN. 
 Aquí podrás explorar y visualizar autos de distintas marcas en un entorno interactivo y futurista.   
 
 ![Logo CG](https://github.com/user-attachments/assets/7e170522-5b03-4e63-aac9-7ace4aace232)   
