@@ -12,9 +12,9 @@ void mouse_callback(GLFWwindow* window, double xpos, double ypos);
 void scroll_callback(GLFWwindow* window, double xoffset, double yoffset);
 
 // Global variables
-const unsigned int SCR_WIDTH = 800;
-const unsigned int SCR_HEIGHT = 600;
-Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
+const unsigned int SCR_WIDTH = 1200;
+const unsigned int SCR_HEIGHT = 900;
+Camera camera(glm::vec3(-20.0f, 2.0f, 0.0f));
 float lastX = SCR_WIDTH / 2.0f;
 float lastY = SCR_HEIGHT / 2.0f;
 bool firstMouse = true;
@@ -32,11 +32,23 @@ int main() {
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
-    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "Multi-Model Scene", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "2024_GR1CC_GR8_Proyecto_NiseN", NULL, NULL);
     if (!window) {
         glfwTerminate();
         return -1;
     }
+
+    // Centrar la ventana en el monitor principal
+    GLFWmonitor* primaryMonitor = glfwGetPrimaryMonitor();
+    int monitorX, monitorY, monitorWidth, monitorHeight;
+    glfwGetMonitorWorkarea(primaryMonitor, &monitorX, &monitorY, &monitorWidth, &monitorHeight);
+    int windowX = monitorX + (monitorWidth - SCR_WIDTH) / 2;
+    int windowY = monitorY + (monitorHeight - SCR_HEIGHT) / 2;
+    glfwSetWindowPos(window, windowX, windowY);
+
+    glfwMakeContextCurrent(window); // Establece el contexto de OpenGL para la ventana.
+    glfwSetFramebufferSizeCallback(window, framebuffer_size_callback); // Ajusta la ventana al redimensionar.
+
     glfwMakeContextCurrent(window);
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
     glfwSetCursorPosCallback(window, mouse_callback);
@@ -62,13 +74,14 @@ int main() {
     Scene scene;
     scene.addModel(ModelLoader("models/space/espacio.obj", glm::vec3(0.0f), glm::vec3(2.0f, 1.0f, 2.0f),glm::vec3(0.0f),false));
     scene.addModel(ModelLoader("models/garage/garage.obj", glm::vec3(0.0f), glm::vec3(0.05f),glm::vec3(0.0f), true));
-    scene.addModel(ModelLoader("models/security_room_/security.obj", glm::vec3(-13.0f, 0.07f, -3.0f), glm::vec3(0.4f), glm::vec3(-90.0f, 90.0f, 90.0f),true));
+    /*scene.addModel(ModelLoader("models/security_room_/security.obj", glm::vec3(-13.0f, 0.07f, -3.0f), glm::vec3(0.4f), glm::vec3(-90.0f, 90.0f, 90.0f),true));
     scene.addModel(ModelLoader("models/senial_traffic/senial_traffic.obj", glm::vec3(-13.0f, 0.0f, 3.0f), glm::vec3(0.2f), glm::vec3(0.0f, -90.0f, 0.0f), true));
     scene.addModel(ModelLoader("models/escritorio_deco/escritorio.obj", glm::vec3(-4.0f, 0.0f, 4.0f), glm::vec3(0.5f), glm::vec3(-180.0f, -90.0f, -180.0f),true));
     scene.addModel(ModelLoader("models/barril_deco/barril_deco.obj", glm::vec3(-7.5f, 0.0f, 2.5f), glm::vec3(1.0f), glm::vec3(-180.0f, -90.0f, -180.0f),true));
     scene.addModel(ModelLoader("models/llantas_deco/llantas_deco.obj", glm::vec3(-7.5f, 0.5f, -3.0f), glm::vec3(1.0f), glm::vec3(-180.0f, -180.0f, -180.0f),true));
     scene.addModel(ModelLoader("models/lampara_techo/lampara_techo.obj", glm::vec3(1.75f, 1.5f, 0.0f), glm::vec3(0.006f), glm::vec3(-180.0f, -180.0f, -180.0f),true));
-    scene.addModel(ModelLoader("models/linterna_mano/linterna_mano.obj", glm::vec3(1.60f, 2.0f, 3.75f), glm::vec3(0.1f), glm::vec3(-180.0f, -180.0f, -180.0f),true));
+    scene.addModel(ModelLoader("models/linterna_mano/linterna_mano.obj", glm::vec3(1.60f, 2.0f, 3.75f), glm::vec3(0.1f), glm::vec3(-180.0f, -180.0f, -180.0f),true));*/
+    scene.addModel(ModelLoader("models/Logo_NiseN/Logo.obj", glm::vec3(-7.75f, 4.5f, 0.0f), glm::vec3(1.0f), glm::vec3(-180.0f, 90.0f, -180.0f), true));
     scene.addModel(ModelLoader("models/ram_1500/RAM.obj", glm::vec3(4.5f, -0.15f, 0.0f), glm::vec3(1.0f), glm::vec3(0.0f, -90.0f, 0.0f),true));
     scene.addModel(ModelLoader("models/porsche_gt3/porsche.obj", glm::vec3(-4.25f, 0.0f, -3.0f), glm::vec3(0.75f), glm::vec3(0.0f, 0.0f, 0.0f),true));
     scene.addModel(ModelLoader("models/chevroletCamaro/Camaro.obj", glm::vec3(0.0f, 0.0f, -2.5f), glm::vec3(0.3f), glm::vec3(0.0f, 0.0f, 0.0f),true));
@@ -138,7 +151,7 @@ int main() {
         glm::vec3(6.0f, 2.8f, -4.0f),
         glm::vec3(-5.7f,  2.8f, -4.0f),
         glm::vec3(-5.7f,  2.8f, 4.0f),
-        glm::vec3(0.0f,  2.0f, 0.0f),
+        glm::vec3(0.0f,  2.3f, 0.0f),
         glm::vec3(0.0f,  2.5f, 3.5f),
         glm::vec3(0.0f,  2.5f, -3.5f),
         glm::vec3(5.5f, 2.5f, 0.0f),
@@ -173,10 +186,10 @@ int main() {
         glm::vec3(0.4f),
         glm::vec3(0.4f),
         glm::vec3(0.6f),
-        glm::vec3(0.5f),
-        glm::vec3(0.5f),
-        glm::vec3(0.5f),
-        glm::vec3(0.5f)
+        glm::vec3(0.2f),
+        glm::vec3(0.2f),
+        glm::vec3(0.2f),
+        glm::vec3(0.2f)
     };
 
     // first, configure the cube's VAO (and VBO)
@@ -208,8 +221,11 @@ int main() {
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
 
+
     int baseIndex = scene.getModels().size() - 4;
     scene.getModels()[baseIndex + activeModelIndex].moveTo(ramPosition);
+
+    camera.MovementSpeed = 5;
 
     // Render loop
     while (!glfwWindowShouldClose(window)) {
@@ -301,7 +317,7 @@ int main() {
 
         glBindVertexArray(lightCubeVAO);
 
-        for (unsigned int i = 0; i < 10; i++) {
+        for (unsigned int i = 0; i < 13; i++) {
             glm::mat4 model = glm::mat4(1.0f);
             model = glm::translate(model, lightPositions[i]);
             model = glm::scale(model, lightScale[i]); // Cubo más pequeño
@@ -342,26 +358,34 @@ void processInput(GLFWwindow* window, std::vector<ModelLoader>& models, int& act
 
     if (glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_PRESS) {
         int baseIndex = models.size() - 4;
+
         // Guardar la posición actual del modelo activo
         glm::vec3 currentPosition = models[baseIndex + activeModelIndex].getPosition();
+
         // Cambiar al siguiente modelo activo
         int previousModelIndex = activeModelIndex; // Guardar índice del modelo anterior
         activeModelIndex = (activeModelIndex + 1) % 4;
+
         // Mover el modelo anterior a la posición del nuevo modelo activo
         models[baseIndex + previousModelIndex].moveTo(models[baseIndex + activeModelIndex].getPosition());
+
         // Mover el nuevo modelo activo a la posición `ramPosition`
-        models[baseIndex + activeModelIndex].moveTo(ramPosition);;
+        models[baseIndex + activeModelIndex].moveTo(ramPosition);
     }
 
     if (glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS) {
         int baseIndex = models.size() - 4;
+
         // Guardar la posición actual del modelo activo
         glm::vec3 currentPosition = models[baseIndex + activeModelIndex].getPosition();
-        // Cambiar al siguiente modelo activo
+
+        // Cambiar al modelo anterior
         int previousModelIndex = activeModelIndex; // Guardar índice del modelo anterior
-        activeModelIndex = (activeModelIndex - 1) % 4; 
+        activeModelIndex = (activeModelIndex - 1 + 4) % 4;
+
         // Mover el modelo anterior a la posición del nuevo modelo activo
         models[baseIndex + previousModelIndex].moveTo(models[baseIndex + activeModelIndex].getPosition());
+
         // Mover el nuevo modelo activo a la posición `ramPosition`
         models[baseIndex + activeModelIndex].moveTo(ramPosition);
     }
