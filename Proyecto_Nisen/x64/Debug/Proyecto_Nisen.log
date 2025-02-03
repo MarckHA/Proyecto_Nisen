@@ -1,16 +1,20 @@
 ﻿  Proyect_main.cpp
-C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\Proyecto_Nisen_Stuff\include\learnopengl\shader.h(55,40): warning C4101: 'e': variable local sin referencia
+C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\Proyecto_Nisen\Proyecto_Nisen_Stuff\include\learnopengl\shader.h(55,40): warning C4101: 'e': variable local sin referencia
   (compilando archivo de origen "Proyect_main.cpp")
   
-C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\Proyecto_Nisen_Stuff\include\learnopengl\mesh.h(87,50): warning C4267: 'argumento': conversión de 'size_t' a 'GLsizei'; posible pérdida de datos
+C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\Proyecto_Nisen\Proyecto_Nisen_Stuff\include\learnopengl\mesh.h(87,50): warning C4267: 'argumento': conversión de 'size_t' a 'GLsizei'; posible pérdida de datos
   (compilando archivo de origen "Proyect_main.cpp")
   
-C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\Proyecto_Nisen\Proyect_main.cpp(64,28): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\Proyecto_Nisen\Proyect_main.cpp(102,17): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\Proyecto_Nisen\Proyect_main.cpp(103,17): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\Proyecto_Nisen\Proyect_main.cpp(107,19): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\Proyecto_Nisen\Proyect_main.cpp(108,19): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\Proyecto_Nisen\Proyect_main.cpp(110,13): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\Proyecto_Nisen\Proyect_main.cpp(111,13): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\Proyecto_Nisen\Proyect_main.cpp(118,31): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-  Proyecto_Nisen.vcxproj -> C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\x64\Debug\Proyecto_Nisen.exe
+C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\Proyecto_Nisen\Proyecto_Nisen\Proyect_main.cpp(211,19): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\Proyecto_Nisen\Proyecto_Nisen\Proyect_main.cpp(217,28): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\Proyecto_Nisen\Proyecto_Nisen\Proyect_main.cpp(339,23): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\Proyecto_Nisen\Proyecto_Nisen\Proyect_main.cpp(344,23): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\Proyecto_Nisen\Proyecto_Nisen\Proyect_main.cpp(358,23): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\Proyecto_Nisen\Proyecto_Nisen\Proyect_main.cpp(381,17): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\Proyecto_Nisen\Proyecto_Nisen\Proyect_main.cpp(382,17): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\Proyecto_Nisen\Proyecto_Nisen\Proyect_main.cpp(386,19): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\Proyecto_Nisen\Proyecto_Nisen\Proyect_main.cpp(387,19): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\Proyecto_Nisen\Proyecto_Nisen\Proyect_main.cpp(389,13): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\Proyecto_Nisen\Proyecto_Nisen\Proyect_main.cpp(390,13): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\Proyecto_Nisen\Proyecto_Nisen\Proyect_main.cpp(397,31): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+  Proyecto_Nisen.vcxproj -> C:\Users\Marck Hernández\Documents\Visual Studio 2022\Proyecto_Nisen\Proyecto_Nisen\x64\Debug\Proyecto_Nisen.exe
