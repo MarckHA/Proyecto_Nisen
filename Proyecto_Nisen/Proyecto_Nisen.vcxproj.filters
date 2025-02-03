@@ -19,9 +19,6 @@
     <Filter Include="Archivos de origen\shaders">
       <UniqueIdentifier>{119f1fc4-7bde-40a4-a2dd-63e132ad6267}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Archivos de origen\models\backpack">
-      <UniqueIdentifier>{9f9d4153-150d-423d-a721-1663658f66a8}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Archivos de origen\models\porsche_gt3">
       <UniqueIdentifier>{f248ef4e-faa7-4b95-b225-9183c1d5e96f}</UniqueIdentifier>
     </Filter>
@@ -30,6 +27,42 @@
     </Filter>
     <Filter Include="Archivos de origen\models\garage">
       <UniqueIdentifier>{0c2a1a37-9765-4275-b134-3057d546d9d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\models\barril_deco">
+      <UniqueIdentifier>{ae66f9ac-890a-4d0a-92e5-4a3efe660f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\models\chevroletCamaro">
+      <UniqueIdentifier>{0736c99a-6847-44de-911a-eb51c59c0ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\models\escritorio_deco">
+      <UniqueIdentifier>{f47008a9-56c6-4511-a141-7493f4b623a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\models\lamborghini_aventador">
+      <UniqueIdentifier>{64b1899b-4d39-4bc4-8c31-fdd2bcfd77d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\models\lampara_techo">
+      <UniqueIdentifier>{b3160172-6860-4af0-bcca-ac6ac04695ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\models\linterna_mano">
+      <UniqueIdentifier>{98a890dc-f8c7-4164-9fc2-5930ca87d967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\models\llantas_deco">
+      <UniqueIdentifier>{0e70ba50-4089-4503-91d9-4226e84a5fa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\models\ram_500">
+      <UniqueIdentifier>{e05d7089-6037-4692-b6e1-c1af4e3a9139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\models\security_room_">
+      <UniqueIdentifier>{338ccb39-83f8-458c-8697-fa8c52743d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\models\senial_traffic">
+      <UniqueIdentifier>{da3803c8-75a0-4e3f-8bcd-00a1441ea0f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\textures">
+      <UniqueIdentifier>{fc9e2c52-48b8-4529-b6b5-d950f1f1caa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\models\Logo_NiseN">
+      <UniqueIdentifier>{3bdd3f0e-bd6c-4fd2-ac33-b2209609e4f1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -44,15 +77,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="models\backpack\backpack.mtl">
-      <Filter>Archivos de origen\models\backpack</Filter>
-    </None>
-    <None Include="shaders\shader_exercise15_lightcube.fs">
-      <Filter>Archivos de origen\shaders</Filter>
-    </None>
-    <None Include="shaders\shader_exercise15_lightcube.vs">
-      <Filter>Archivos de origen\shaders</Filter>
-    </None>
     <None Include="models\porsche_gt3\porsche.mtl">
       <Filter>Archivos de origen\models\porsche_gt3</Filter>
     </None>
@@ -62,35 +86,71 @@
     <None Include="shaders\shadermloading.vs">
       <Filter>Archivos de origen\shaders</Filter>
     </None>
-    <None Include="shaders\shader_exercise15t5_casters.fs">
-      <Filter>Archivos de origen\shaders</Filter>
-    </None>
-    <None Include="shaders\shader_exercise15t5_casters.vs">
-      <Filter>Archivos de origen\shaders</Filter>
-    </None>
     <None Include="models\space\espacio.mtl">
       <Filter>Archivos de origen\models\space</Filter>
     </None>
     <None Include="models\garage\garage_.mtl">
       <Filter>Archivos de origen\models\garage</Filter>
     </None>
+    <None Include="models\barril_deco\barril_deco.mtl">
+      <Filter>Archivos de origen\models\barril_deco</Filter>
+    </None>
+    <None Include="models\chevroletCamaro\Camaro.mtl">
+      <Filter>Archivos de origen\models\chevroletCamaro</Filter>
+    </None>
+    <None Include="models\escritorio_deco\escritorio.mtl">
+      <Filter>Archivos de origen\models\escritorio_deco</Filter>
+    </None>
+    <None Include="models\lamborghini_aventador\Lambo.mtl">
+      <Filter>Archivos de origen\models\lamborghini_aventador</Filter>
+    </None>
+    <None Include="models\lampara_techo\lampara_techo.mtl">
+      <Filter>Archivos de origen\models\lampara_techo</Filter>
+    </None>
+    <None Include="models\linterna_mano\linterna_mano.mtl">
+      <Filter>Archivos de origen\models\linterna_mano</Filter>
+    </None>
+    <None Include="models\llantas_deco\llantas_deco.mtl">
+      <Filter>Archivos de origen\models\llantas_deco</Filter>
+    </None>
+    <None Include="models\senial_traffic\senial_traffic.mtl">
+      <Filter>Archivos de origen\models\senial_traffic</Filter>
+    </None>
+    <None Include="models\security_room_\security.mtl">
+      <Filter>Archivos de origen\models\security_room_</Filter>
+    </None>
+    <None Include="models\ram_1500\RAM.mtl">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </None>
+    <None Include="shaders\light.fs">
+      <Filter>Archivos de origen\shaders</Filter>
+    </None>
+    <None Include="shaders\light.vs">
+      <Filter>Archivos de origen\shaders</Filter>
+    </None>
+    <None Include="shaders\lightcube.fs">
+      <Filter>Archivos de origen\shaders</Filter>
+    </None>
+    <None Include="shaders\lightcube.vs">
+      <Filter>Archivos de origen\shaders</Filter>
+    </None>
+    <None Include="shaders\colors.fs">
+      <Filter>Archivos de origen\shaders</Filter>
+    </None>
+    <None Include="shaders\colors.vs">
+      <Filter>Archivos de origen\shaders</Filter>
+    </None>
+    <None Include="models\Logo_NiseN\Logo.mtl">
+      <Filter>Archivos de origen\models\Logo_NiseN</Filter>
+    </None>
+    <None Include="shaders\modelLight.fs">
+      <Filter>Archivos de origen\shaders</Filter>
+    </None>
+    <None Include="shaders\modelLight.vs">
+      <Filter>Archivos de origen\shaders</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="models\backpack\ao.jpg">
-      <Filter>Archivos de origen\models\backpack</Filter>
-    </Image>
-    <Image Include="models\backpack\diffuse.jpg">
-      <Filter>Archivos de origen\models\backpack</Filter>
-    </Image>
-    <Image Include="models\backpack\normal.png">
-      <Filter>Archivos de origen\models\backpack</Filter>
-    </Image>
-    <Image Include="models\backpack\roughness.jpg">
-      <Filter>Archivos de origen\models\backpack</Filter>
-    </Image>
-    <Image Include="models\backpack\specular.jpg">
-      <Filter>Archivos de origen\models\backpack</Filter>
-    </Image>
     <Image Include="models\porsche_gt3\Carroceria.png">
       <Filter>Archivos de origen\models\porsche_gt3</Filter>
     </Image>
@@ -346,10 +406,329 @@
     <Image Include="models\garage\Wood04_normal.jpeg">
       <Filter>Archivos de origen\models\garage</Filter>
     </Image>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="models\backpack\source_attribution.txt">
-      <Filter>Archivos de origen\models\backpack</Filter>
-    </Text>
+    <Image Include="models\barril_deco\plechovy_sud_1_low_baseColor.jpeg">
+      <Filter>Archivos de origen\models\barril_deco</Filter>
+    </Image>
+    <Image Include="models\barril_deco\plechovy_sud_1_low_metallicRoughness.png">
+      <Filter>Archivos de origen\models\barril_deco</Filter>
+    </Image>
+    <Image Include="models\barril_deco\plechovy_sud_1_low_normal.jpeg">
+      <Filter>Archivos de origen\models\barril_deco</Filter>
+    </Image>
+    <Image Include="models\barril_deco\sud1_low_shadow_baseColor.png">
+      <Filter>Archivos de origen\models\barril_deco</Filter>
+    </Image>
+    <Image Include="models\chevroletCamaro\amarillo.png">
+      <Filter>Archivos de origen\models\chevroletCamaro</Filter>
+    </Image>
+    <Image Include="models\chevroletCamaro\CMM_Badges_HighSG1_baseColor.png">
+      <Filter>Archivos de origen\models\chevroletCamaro</Filter>
+    </Image>
+    <Image Include="models\chevroletCamaro\CMM_Badges_HighSG1_metallicRoughness.png">
+      <Filter>Archivos de origen\models\chevroletCamaro</Filter>
+    </Image>
+    <Image Include="models\chevroletCamaro\CMM_Badges_HighSG1_normal.png">
+      <Filter>Archivos de origen\models\chevroletCamaro</Filter>
+    </Image>
+    <Image Include="models\chevroletCamaro\CMM_BrakeDisc_HighSG1_baseColor.png">
+      <Filter>Archivos de origen\models\chevroletCamaro</Filter>
+    </Image>
+    <Image Include="models\chevroletCamaro\CMM_BrakeDisc_HighSG1_normal.png">
+      <Filter>Archivos de origen\models\chevroletCamaro</Filter>
+    </Image>
+    <Image Include="models\chevroletCamaro\CMM_Caliper_HighSG1_baseColor.png">
+      <Filter>Archivos de origen\models\chevroletCamaro</Filter>
+    </Image>
+    <Image Include="models\chevroletCamaro\CMM_Caliper_HighSG1_normal.png">
+      <Filter>Archivos de origen\models\chevroletCamaro</Filter>
+    </Image>
+    <Image Include="models\chevroletCamaro\CMM_GrilleA_HighSG1_normal.png">
+      <Filter>Archivos de origen\models\chevroletCamaro</Filter>
+    </Image>
+    <Image Include="models\chevroletCamaro\CMM_Internal_Engine_HighSG1_baseColor.png">
+      <Filter>Archivos de origen\models\chevroletCamaro</Filter>
+    </Image>
+    <Image Include="models\chevroletCamaro\CMM_Internal_Engine_HighSG1_metallicRoughness.png">
+      <Filter>Archivos de origen\models\chevroletCamaro</Filter>
+    </Image>
+    <Image Include="models\chevroletCamaro\CMM_Internal_Engine_HighSG1_normal.png">
+      <Filter>Archivos de origen\models\chevroletCamaro</Filter>
+    </Image>
+    <Image Include="models\chevroletCamaro\CMM_LightCluster_HighSG1_baseColor.png">
+      <Filter>Archivos de origen\models\chevroletCamaro</Filter>
+    </Image>
+    <Image Include="models\chevroletCamaro\CMM_LightCluster_HighSG1_metallicRoughness.png">
+      <Filter>Archivos de origen\models\chevroletCamaro</Filter>
+    </Image>
+    <Image Include="models\chevroletCamaro\CMM_LightCluster_HighSG1_normal.png">
+      <Filter>Archivos de origen\models\chevroletCamaro</Filter>
+    </Image>
+    <Image Include="models\chevroletCamaro\CMM_LightRefracted_HighSG1_baseColor.png">
+      <Filter>Archivos de origen\models\chevroletCamaro</Filter>
+    </Image>
+    <Image Include="models\chevroletCamaro\CMM_LightRefracted_HighSG1_normal.png">
+      <Filter>Archivos de origen\models\chevroletCamaro</Filter>
+    </Image>
+    <Image Include="models\chevroletCamaro\CMM_Rim_HighSG1_baseColor.png">
+      <Filter>Archivos de origen\models\chevroletCamaro</Filter>
+    </Image>
+    <Image Include="models\chevroletCamaro\CMM_Tire_HighSG1_normal.png">
+      <Filter>Archivos de origen\models\chevroletCamaro</Filter>
+    </Image>
+    <Image Include="models\chevroletCamaro\negros.png">
+      <Filter>Archivos de origen\models\chevroletCamaro</Filter>
+    </Image>
+    <Image Include="models\chevroletCamaro\vidrio_rojo.png">
+      <Filter>Archivos de origen\models\chevroletCamaro</Filter>
+    </Image>
+    <Image Include="models\chevroletCamaro\vidrios.png">
+      <Filter>Archivos de origen\models\chevroletCamaro</Filter>
+    </Image>
+    <Image Include="models\escritorio_deco\Material_baseColor.png">
+      <Filter>Archivos de origen\models\escritorio_deco</Filter>
+    </Image>
+    <Image Include="models\escritorio_deco\Material_metallicRoughness.png">
+      <Filter>Archivos de origen\models\escritorio_deco</Filter>
+    </Image>
+    <Image Include="models\escritorio_deco\Material_normal.png">
+      <Filter>Archivos de origen\models\escritorio_deco</Filter>
+    </Image>
+    <Image Include="models\lamborghini_aventador\Aros.png">
+      <Filter>Archivos de origen\models\lamborghini_aventador</Filter>
+    </Image>
+    <Image Include="models\lamborghini_aventador\Brake_disk_baseColor.png">
+      <Filter>Archivos de origen\models\lamborghini_aventador</Filter>
+    </Image>
+    <Image Include="models\lamborghini_aventador\Carbon_baseColor.jpeg">
+      <Filter>Archivos de origen\models\lamborghini_aventador</Filter>
+    </Image>
+    <Image Include="models\lamborghini_aventador\Carbon_metallicRoughness.png">
+      <Filter>Archivos de origen\models\lamborghini_aventador</Filter>
+    </Image>
+    <Image Include="models\lamborghini_aventador\Carbon_normal.jpeg">
+      <Filter>Archivos de origen\models\lamborghini_aventador</Filter>
+    </Image>
+    <Image Include="models\lamborghini_aventador\Emblem_baseColor.png">
+      <Filter>Archivos de origen\models\lamborghini_aventador</Filter>
+    </Image>
+    <Image Include="models\lamborghini_aventador\Emblem_metallicRoughness.png">
+      <Filter>Archivos de origen\models\lamborghini_aventador</Filter>
+    </Image>
+    <Image Include="models\lamborghini_aventador\Emblem_normal.png">
+      <Filter>Archivos de origen\models\lamborghini_aventador</Filter>
+    </Image>
+    <Image Include="models\lamborghini_aventador\Logo_lambo.png">
+      <Filter>Archivos de origen\models\lamborghini_aventador</Filter>
+    </Image>
+    <Image Include="models\lamborghini_aventador\luces_blancas.png">
+      <Filter>Archivos de origen\models\lamborghini_aventador</Filter>
+    </Image>
+    <Image Include="models\lamborghini_aventador\luces_naranjas.png">
+      <Filter>Archivos de origen\models\lamborghini_aventador</Filter>
+    </Image>
+    <Image Include="models\lamborghini_aventador\luces_rojas.png">
+      <Filter>Archivos de origen\models\lamborghini_aventador</Filter>
+    </Image>
+    <Image Include="models\lamborghini_aventador\negros.001.png">
+      <Filter>Archivos de origen\models\lamborghini_aventador</Filter>
+    </Image>
+    <Image Include="models\lamborghini_aventador\negros.png">
+      <Filter>Archivos de origen\models\lamborghini_aventador</Filter>
+    </Image>
+    <Image Include="models\lamborghini_aventador\Parabrisas.png">
+      <Filter>Archivos de origen\models\lamborghini_aventador</Filter>
+    </Image>
+    <Image Include="models\lamborghini_aventador\Tires_2_baseColor.jpeg">
+      <Filter>Archivos de origen\models\lamborghini_aventador</Filter>
+    </Image>
+    <Image Include="models\lamborghini_aventador\UVCarroceria.png">
+      <Filter>Archivos de origen\models\lamborghini_aventador</Filter>
+    </Image>
+    <Image Include="models\lampara_techo\BaseColor.png">
+      <Filter>Archivos de origen\models\lampara_techo</Filter>
+    </Image>
+    <Image Include="models\lampara_techo\blanco_luz.png">
+      <Filter>Archivos de origen\models\lampara_techo</Filter>
+    </Image>
+    <Image Include="models\lampara_techo\Plastik_Shagren_White_metallicRoughness.png">
+      <Filter>Archivos de origen\models\lampara_techo</Filter>
+    </Image>
+    <Image Include="models\linterna_mano\base_caucho.png">
+      <Filter>Archivos de origen\models\linterna_mano</Filter>
+    </Image>
+    <Image Include="models\linterna_mano\blanco_luz.png">
+      <Filter>Archivos de origen\models\linterna_mano</Filter>
+    </Image>
+    <Image Include="models\linterna_mano\borde_foco.png">
+      <Filter>Archivos de origen\models\linterna_mano</Filter>
+    </Image>
+    <Image Include="models\llantas_deco\DefaultMaterial_baseColor.jpeg">
+      <Filter>Archivos de origen\models\llantas_deco</Filter>
+    </Image>
+    <Image Include="models\llantas_deco\DefaultMaterial_metallicRoughness.png">
+      <Filter>Archivos de origen\models\llantas_deco</Filter>
+    </Image>
+    <Image Include="models\llantas_deco\DefaultMaterial_normal.png">
+      <Filter>Archivos de origen\models\llantas_deco</Filter>
+    </Image>
+    <Image Include="models\senial_traffic\20MpH_baseColor.png">
+      <Filter>Archivos de origen\models\senial_traffic</Filter>
+    </Image>
+    <Image Include="models\senial_traffic\baseColor_palo.png">
+      <Filter>Archivos de origen\models\senial_traffic</Filter>
+    </Image>
+    <Image Include="models\security_room_\Door_baseColor.png">
+      <Filter>Archivos de origen\models\security_room_</Filter>
+    </Image>
+    <Image Include="models\security_room_\Door_metallicRoughness.png">
+      <Filter>Archivos de origen\models\security_room_</Filter>
+    </Image>
+    <Image Include="models\security_room_\Door_normal.png">
+      <Filter>Archivos de origen\models\security_room_</Filter>
+    </Image>
+    <Image Include="models\security_room_\material_2_baseColor.png">
+      <Filter>Archivos de origen\models\security_room_</Filter>
+    </Image>
+    <Image Include="models\security_room_\material_2_metallicRoughness.png">
+      <Filter>Archivos de origen\models\security_room_</Filter>
+    </Image>
+    <Image Include="models\security_room_\material_2_normal.png">
+      <Filter>Archivos de origen\models\security_room_</Filter>
+    </Image>
+    <Image Include="models\security_room_\material_baseColor.png">
+      <Filter>Archivos de origen\models\security_room_</Filter>
+    </Image>
+    <Image Include="models\security_room_\material_emissive.png">
+      <Filter>Archivos de origen\models\security_room_</Filter>
+    </Image>
+    <Image Include="models\security_room_\material_metallicRoughness.png">
+      <Filter>Archivos de origen\models\security_room_</Filter>
+    </Image>
+    <Image Include="models\security_room_\material_normal.png">
+      <Filter>Archivos de origen\models\security_room_</Filter>
+    </Image>
+    <Image Include="models\security_room_\vidrio.png">
+      <Filter>Archivos de origen\models\security_room_</Filter>
+    </Image>
+    <Image Include="models\ram_1500\Carroceria.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\Negro.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021_Wheel1A_3D_3DWheel2A_Material_baseColor.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021_Wheel1A_3D_3DWheel2A_Material_normal.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021BadgeA_Material_baseColor.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021BadgeA_Material_normal.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021Carbon1M_Material_baseColor.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021Carbon1M_Material_normal.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021Coloured_Material_baseColor.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021EngineA_Material_baseColor.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021EngineA_Material_normal.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021Grille1A_Material_baseColor.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021Grille1A_Material_normal.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021Grille2A_Material_baseColor.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021Grille2A_Material_normal.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021Grille3A_Material_baseColor.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021Grille3A_Material_normal.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021Grille4A_Material_baseColor.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021Grille4A_Material_normal.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021Grille5A_Material_baseColor.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021Grille5A_Material_normal.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021Grille6A_Material_baseColor.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021Grille6A_Material_normal.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021Grille7A_Material_baseColor.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021Grille7A_Material_normal.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021Grille8A_Material_baseColor.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021Grille8A_Material_normal.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021Grille9A_Material_baseColor.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021Grille9A_Material_normal.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021InteriorA_Material_baseColor.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021InteriorA_Material_normal.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021InteriorTillingA_Material_normal.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021LightA_Material_baseColor.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021LightA_Material_metallicRoughness.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021ManufacturerPlateA_Material_baseColor.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\RAM_1500TRX_2021TexturedA_Material_baseColor.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\Vidrio.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\ram_1500\vidrio_rojo.png">
+      <Filter>Archivos de origen\models\ram_500</Filter>
+    </Image>
+    <Image Include="models\Logo_NiseN\Metal.png">
+      <Filter>Archivos de origen\models\Logo_NiseN</Filter>
+    </Image>
+    <Image Include="models\Logo_NiseN\Metal_letra.png">
+      <Filter>Archivos de origen\models\Logo_NiseN</Filter>
+    </Image>
   </ItemGroup>
 </Project>
