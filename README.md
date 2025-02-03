@@ -8,7 +8,7 @@ Aquí podrás explorar y visualizar autos de distintas marcas en un entorno inte
 
 ---
 
-##**Misión y Visión**
+## **Misión y Visión**
 
 - Misión:   
 "En NiseN, nuestra misión es revolucionar la experiencia automotriz a través de la innovación en computación gráfica, ofreciendo simulaciones hiperrealistas que permitan a los usuarios explorar, personalizar y disfrutar de vehículos únicos en un entorno virtual."   
