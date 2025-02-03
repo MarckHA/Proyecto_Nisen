@@ -1,7 +1,20 @@
 # Proyecto NiseN: Garage Espacial 🚀🚗
 
 ¡Bienvenido al repositorio oficial del **Proyecto NiseN**! Este proyecto es un simulador de garage en el espacio, desarrollado para la materia de Computación Gráfica en la EPN. 
-Aquí podrás explorar y visualizar autos de distintas marcas en un entorno interactivo y futurista.
+Aquí podrás explorar y visualizar autos de distintas marcas en un entorno interactivo y futurista.   
+
+![Logo CG](https://github.com/user-attachments/assets/b7ede6d3-a6ec-47e0-afa1-1e8570764e47)   
+"No somos Nissan, pero nuestros autos virtuales sí te llevan a otro mundo."   
+
+---
+
+##**Misión y Visión**
+
+- Misión:   
+"En NiseN, nuestra misión es revolucionar la experiencia automotriz a través de la innovación en computación gráfica, ofreciendo simulaciones hiperrealistas que permitan a los usuarios explorar, personalizar y disfrutar de vehículos únicos en un entorno virtual."   
+   
+- Visión:   
+"Ser reconocidos a nivel global como la empresa pionera en simulaciones gráficas de alta calidad, siendo el referente en la industria de la computación gráfica aplicada al sector automotriz. Aspiramos a expandir nuestras plataformas para que cualquier persona, desde entusiastas hasta profesionales, pueda vivir la emoción de los autos en un mundo virtual sin límites."   
 
 ---
 
