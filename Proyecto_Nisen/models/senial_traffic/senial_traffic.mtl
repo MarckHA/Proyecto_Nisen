@@ -9,7 +9,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 3
-map_Kd C:/20MpH_baseColor.png
+map_Kd 20MpH_baseColor.png
 
 newmtl Stainleess
 Ns 490.000000
@@ -29,4 +29,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 3
-map_Kd textures/baseColor_palo.png
+map_Kd baseColor_palo.png
