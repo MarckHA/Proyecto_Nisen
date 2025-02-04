@@ -248,6 +248,7 @@
     <Image Include="models\garage\Wood04_metallicRoughness.jpeg" />
     <Image Include="models\garage\Wood04_normal.jpeg" />
     <Image Include="models\lamborghini_aventador\Aros.png" />
+    <Image Include="models\lamborghini_aventador\blanco_luz.png" />
     <Image Include="models\lamborghini_aventador\Brake_disk_baseColor.png" />
     <Image Include="models\lamborghini_aventador\Carbon_baseColor.jpeg" />
     <Image Include="models\lamborghini_aventador\Carbon_metallicRoughness.png" />

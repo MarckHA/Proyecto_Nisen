@@ -58,9 +58,6 @@
     <Filter Include="Archivos de origen\models\senial_traffic">
       <UniqueIdentifier>{da3803c8-75a0-4e3f-8bcd-00a1441ea0f8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Archivos de origen\textures">
-      <UniqueIdentifier>{fc9e2c52-48b8-4529-b6b5-d950f1f1caa1}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Archivos de origen\models\Logo_NiseN">
       <UniqueIdentifier>{3bdd3f0e-bd6c-4fd2-ac33-b2209609e4f1}</UniqueIdentifier>
     </Filter>
@@ -729,6 +726,9 @@
     </Image>
     <Image Include="models\Logo_NiseN\Metal_letra.png">
       <Filter>Archivos de origen\models\Logo_NiseN</Filter>
+    </Image>
+    <Image Include="models\lamborghini_aventador\blanco_luz.png">
+      <Filter>Archivos de origen\models\lamborghini_aventador</Filter>
     </Image>
   </ItemGroup>
 </Project>
