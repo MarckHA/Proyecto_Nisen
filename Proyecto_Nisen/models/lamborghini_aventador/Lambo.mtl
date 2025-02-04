@@ -10,6 +10,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 3
+map_Kd blanco_luz.png
 
 newmtl Body
 Ns 250.000000
@@ -60,7 +61,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 2
-map_Bump -o 0 -4.1 0 -s 5.1 5.1 1 -bm 1.000000 Carbon_normal.jpeg
+map_Kd Carbon_baseColor.jpeg
+map_Bump Carbon_normal.jpeg
 
 newmtl Chrome
 Ns 219.194412
@@ -71,6 +73,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 3
+map_Kd blanco_luz.png
 
 newmtl Dark_Metal
 Ns 110.103180
@@ -81,6 +84,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 3
+map_Kd UVCarroceria.png
 
 newmtl Emblem
 Ns 250.000000
@@ -91,7 +95,8 @@ Ni 1.500000
 d 1.000000
 illum 2
 map_Kd Emblem_baseColor.png
-map_Bump -bm 1.000000 Emblem_normal.png
+map_normal -bm 1.000000 Emblem_normal.png
+
 
 newmtl Exhaust
 Ns 470.033020
@@ -102,6 +107,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 3
+map_Kd blanco_luz.png
 
 newmtl Front_Light
 Ns 330.583099
@@ -112,6 +118,7 @@ Ke 1.000000 1.000000 1.000000
 Ni 1.500000
 d 1.000000
 illum 2
+map_Kd blanco_luz.png
 
 newmtl Front_Light_Lens
 Ns 700.522705
@@ -162,6 +169,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 3
+map_Kd blanco_luz.png
 
 newmtl Orange_Lights
 Ns 699.504761
@@ -212,6 +220,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.500000
 d 1.000000
 illum 3
+map_Kd negros.png
 
 newmtl Wheel_Screw
 Ns 250.000000

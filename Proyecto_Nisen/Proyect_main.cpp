@@ -80,12 +80,12 @@ int main() {
     scene.addModel(ModelLoader("models/barril_deco/barril_deco.obj", glm::vec3(-7.5f, 0.0f, 2.5f), glm::vec3(1.0f), glm::vec3(-180.0f, -90.0f, -180.0f),true));
     scene.addModel(ModelLoader("models/llantas_deco/llantas_deco.obj", glm::vec3(-7.5f, 0.5f, -3.0f), glm::vec3(1.0f), glm::vec3(-180.0f, -180.0f, -180.0f),true));
     scene.addModel(ModelLoader("models/lampara_techo/lampara_techo.obj", glm::vec3(1.75f, 1.5f, 0.0f), glm::vec3(0.006f), glm::vec3(-180.0f, -180.0f, -180.0f),true));
-    scene.addModel(ModelLoader("models/linterna_mano/linterna_mano.obj", glm::vec3(1.60f, 2.0f, 3.75f), glm::vec3(0.1f), glm::vec3(-180.0f, -180.0f, -180.0f),true));*/
-    scene.addModel(ModelLoader("models/Logo_NiseN/Logo.obj", glm::vec3(-7.75f, 4.5f, 0.0f), glm::vec3(1.0f), glm::vec3(-180.0f, 90.0f, -180.0f), true));
-    scene.addModel(ModelLoader("models/ram_1500/RAM.obj", glm::vec3(4.5f, -0.15f, 0.0f), glm::vec3(1.0f), glm::vec3(0.0f, -90.0f, 0.0f),true));
+    scene.addModel(ModelLoader("models/linterna_mano/linterna_mano.obj", glm::vec3(1.60f, 2.0f, 3.75f), glm::vec3(0.1f), glm::vec3(-180.0f, -180.0f, -180.0f),true));
+    scene.addModel(ModelLoader("models/Logo_NiseN/Logo.obj", glm::vec3(-7.75f, 4.5f, 0.0f), glm::vec3(1.0f), glm::vec3(-180.0f, 90.0f, -180.0f), true));*/
+    /*scene.addModel(ModelLoader("models/ram_1500/RAM.obj", glm::vec3(4.5f, -0.15f, 0.0f), glm::vec3(1.0f), glm::vec3(0.0f, -90.0f, 0.0f),true));
     scene.addModel(ModelLoader("models/porsche_gt3/porsche.obj", glm::vec3(-4.25f, 0.0f, -3.0f), glm::vec3(0.75f), glm::vec3(0.0f, 0.0f, 0.0f),true));
-    scene.addModel(ModelLoader("models/chevroletCamaro/Camaro.obj", glm::vec3(0.0f, 0.0f, -2.5f), glm::vec3(0.3f), glm::vec3(0.0f, 0.0f, 0.0f),true));
-    scene.addModel(ModelLoader("models/lamborghini_aventador/Lambo.obj", glm::vec3(0.0f, -0.15f, 3.0f), glm::vec3(0.15f), glm::vec3(-180.0f, 0.0f, 180.0f),true));
+    scene.addModel(ModelLoader("models/chevroletCamaro/Camaro.obj", glm::vec3(0.0f, 0.0f, -2.5f), glm::vec3(0.3f), glm::vec3(0.0f, 0.0f, 0.0f),true));*/
+    scene.addModel(ModelLoader("models/lamborghini_aventador/Lambo.obj", glm::vec3(0.0f, -0.15f, 3.0f), glm::vec3(0.15f), glm::vec3(-180.0f, 0.0f, 180.0f),false));
     Renderer renderer;
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
@@ -222,8 +222,8 @@ int main() {
     glEnableVertexAttribArray(0);
 
 
-    int baseIndex = scene.getModels().size() - 4;
-    scene.getModels()[baseIndex + activeModelIndex].moveTo(ramPosition);
+   /* int baseIndex = scene.getModels().size() - 4;
+    scene.getModels()[baseIndex + activeModelIndex].moveTo(ramPosition);*/
 
     camera.MovementSpeed = 5;
 
@@ -351,44 +351,36 @@ void processInput(GLFWwindow* window, std::vector<ModelLoader>& models, int& act
         camera.ProcessKeyboard(RIGHT, deltaTime);
     
 
-    if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS) {
-        int baseIndex = models.size() - 4;
-        models[baseIndex + activeModelIndex].rotateY(1.0f * deltaTime * 50.0f);
-    } // (para activar el movimiento de la troca) 
+    //if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS) {
+    //    int baseIndex = models.size() - 4;
+    //    models[baseIndex + activeModelIndex].rotateY(1.0f * deltaTime * 50.0f);
+    //} // (para activar el movimiento de la troca) 
 
-    if (glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_PRESS) {
-        int baseIndex = models.size() - 4;
+    //if (glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_PRESS) {
+    //    int baseIndex = models.size() - 4;
+    //    // Guardar la posición actual del modelo activo
+    //    glm::vec3 currentPosition = models[baseIndex + activeModelIndex].getPosition();
+    //    // Cambiar al siguiente modelo activo
+    //    int previousModelIndex = activeModelIndex; // Guardar índice del modelo anterior
+    //    activeModelIndex = (activeModelIndex + 1) % 4;
+    //    // Mover el modelo anterior a la posición del nuevo modelo activo
+    //    models[baseIndex + previousModelIndex].moveTo(models[baseIndex + activeModelIndex].getPosition());
+    //    // Mover el nuevo modelo activo a la posición `ramPosition`
+    //    models[baseIndex + activeModelIndex].moveTo(ramPosition);
+    //}
 
-        // Guardar la posición actual del modelo activo
-        glm::vec3 currentPosition = models[baseIndex + activeModelIndex].getPosition();
-
-        // Cambiar al siguiente modelo activo
-        int previousModelIndex = activeModelIndex; // Guardar índice del modelo anterior
-        activeModelIndex = (activeModelIndex + 1) % 4;
-
-        // Mover el modelo anterior a la posición del nuevo modelo activo
-        models[baseIndex + previousModelIndex].moveTo(models[baseIndex + activeModelIndex].getPosition());
-
-        // Mover el nuevo modelo activo a la posición `ramPosition`
-        models[baseIndex + activeModelIndex].moveTo(ramPosition);
-    }
-
-    if (glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS) {
-        int baseIndex = models.size() - 4;
-
-        // Guardar la posición actual del modelo activo
-        glm::vec3 currentPosition = models[baseIndex + activeModelIndex].getPosition();
-
-        // Cambiar al modelo anterior
-        int previousModelIndex = activeModelIndex; // Guardar índice del modelo anterior
-        activeModelIndex = (activeModelIndex - 1 + 4) % 4;
-
-        // Mover el modelo anterior a la posición del nuevo modelo activo
-        models[baseIndex + previousModelIndex].moveTo(models[baseIndex + activeModelIndex].getPosition());
-
-        // Mover el nuevo modelo activo a la posición `ramPosition`
-        models[baseIndex + activeModelIndex].moveTo(ramPosition);
-    }
+    //if (glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS) {
+    //    int baseIndex = models.size() - 4;
+    //    // Guardar la posición actual del modelo activo
+    //    glm::vec3 currentPosition = models[baseIndex + activeModelIndex].getPosition();
+    //    // Cambiar al modelo anterior
+    //    int previousModelIndex = activeModelIndex; // Guardar índice del modelo anterior
+    //    activeModelIndex = (activeModelIndex - 1 + 4) % 4;
+    //    // Mover el modelo anterior a la posición del nuevo modelo activo
+    //    models[baseIndex + previousModelIndex].moveTo(models[baseIndex + activeModelIndex].getPosition());
+    //    // Mover el nuevo modelo activo a la posición `ramPosition`
+    //    models[baseIndex + activeModelIndex].moveTo(ramPosition);
+    //}
     
 }
 
